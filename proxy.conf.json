@@ -6,5 +6,10 @@
   "/userslist": {
     "target": "http://localhost:3000",
     "secure": false
-  }
+  },
+   
+"/referenceslist": {
+    "target": "http://localhost:3000",
+    "secure": false
+}
 }

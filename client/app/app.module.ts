@@ -10,6 +10,8 @@ import { AppRoutingModule } from './app.routing.module';
 // import components here
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import {RefDetailsModule} from './ref-details/ref-details.module';
+//import {RefComponent}  from   './ref-details/ref-details.component';
 
 // import directives/pipes here
 
@@ -24,9 +26,11 @@ import { HomeComponent } from './home/home.component';
     FormsModule,
     BrowserModule,
     TranslateModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RefDetailsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

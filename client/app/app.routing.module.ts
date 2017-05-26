@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import {RefComponent} from  './ref-details/ref-details.component';
 
 const APP_ROUTES: Routes = [
     {
@@ -10,6 +11,10 @@ const APP_ROUTES: Routes = [
     }, {
         path: 'home',
         component: HomeComponent
+    },
+    {
+        path: 'ref',
+        component: RefComponent
     }
 ];
 
@@ -19,3 +24,4 @@ const APP_ROUTES: Routes = [
 })
 
 export class AppRoutingModule {}
+ 
